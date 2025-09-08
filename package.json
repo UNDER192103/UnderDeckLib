@@ -1,0 +1,30 @@
+{
+  "name": "underdecklib",
+  "version": "1.0.0",
+  "description": "UnderDeckLib",
+  "productName": "UnderDeckLib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/UNDER192103/under-deck",
+  "publish": {
+    "provider": "github",
+    "releaseType": "release"
+  },
+  "homepage": "https://github.com/UNDER192103/under-deck",
+  "author": {
+    "name": "UNDER",
+    "email": "undernouzen@gmail.com",
+    "url": "https://github.com/UNDER192103"
+  },
+  "contributors": [
+    {
+      "name": "UNDER",
+      "email": "undernouzen@gmail.com",
+      "url": "https://github.com/UNDER192103"
+    }
+  ],
+  "keywords": [],
+  "license": "ISC"
+}
