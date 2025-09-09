@@ -1,10 +1,11 @@
-Lib for Under Deck
+Lib for Under Deck: https://undernouzen.shop
 
-How to install: npm i underdecklib
+Install: npm i underdecklib
 
-Example:
+Example usage:
 
 const UnderDeck = require('underdecklib');
+
 const Client = new UnderDeck();
 
 Client.on('ready', (data) => {
