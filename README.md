@@ -4,7 +4,7 @@ Install: npm i underdecklib
 
 Example usage:
 
-const UnderDeck = require('underdecklib');
+const { UnderDeck } = require('underdecklib');
 
 const Client = new UnderDeck();
 
