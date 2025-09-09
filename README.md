@@ -8,8 +8,13 @@ const UnderDeck = require('underdecklib');
 
 const Client = new UnderDeck();
 
-Client.on('ready', (data) => {
-  console.log('Login successful!', data);
+Client.on('Ready', () => {
+  console.log(Client.user);
+  Client.SendSocketMessage('Message Here or Json Object');
+});
+
+Client.on('Failed', (data) => {
+  console.log(data);
 });
 
 Client.on('SocketReady', () => {
@@ -25,7 +30,7 @@ Client.on('SocketMessage', (data) => {
 });
 
 Client.on('error', (err) => {
-  console.error('Login failed:', err);
+  console.error('Auth failed:', err);
 });
 
-Client.Login('token here');
+//Client.Login('User Name', 'User Password'); Or Client.Auth('User Token');
