@@ -1,13 +1,13 @@
 {
   "name": "underdecklib",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "UnderDeckLib",
   "productName": "UnderDeckLib",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "publish"
+    "publish": "npm publish"
   },
   "repository": "https://github.com/UNDER192103/UnderDeckLib",
   "publish": {
