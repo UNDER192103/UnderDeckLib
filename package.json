@@ -1,6 +1,6 @@
 {
   "name": "underdecklib",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "UnderDeckLib",
   "productName": "UnderDeckLib",
   "main": "index.js",
@@ -31,6 +31,7 @@
   "dependencies": {
     "axios": "^1.11.0",
     "macaddress": "^0.5.3",
+    "reconnecting-websocket": "^4.4.0",
     "ws": "^8.18.3"
   }
 }
