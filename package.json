@@ -1,6 +1,6 @@
 {
   "name": "underdecklib",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "UnderDeckLib",
   "productName": "UnderDeckLib",
   "main": "index.js",
