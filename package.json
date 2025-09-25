@@ -1,6 +1,6 @@
 {
   "name": "underdecklib",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "UnderDeckLib",
   "productName": "UnderDeckLib",
   "main": "index.js",
@@ -32,6 +32,7 @@
     "axios": "^1.11.0",
     "macaddress": "^0.5.3",
     "reconnecting-websocket": "^4.4.0",
+    "serialport": "^13.0.0",
     "ws": "^8.18.3"
   }
 }
